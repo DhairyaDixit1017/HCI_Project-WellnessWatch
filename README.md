@@ -30,6 +30,8 @@ python main.py
 
 ## Repository structure
 
+<details>
+
 WellnessWatch/
 ├─ main.py
 ├─ tracker_core/
@@ -50,3 +52,5 @@ WellnessWatch/
 │ ├─ frames_YYYYMMDD_HHMMSS.csv
 │ └─ events_YYYYMMDD_HHMMSS.csv
 └─ requirements.txt
+
+</details>
