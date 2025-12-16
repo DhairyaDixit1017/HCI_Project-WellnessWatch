@@ -1,0 +1,41 @@
+camera_index: 0
+frame_width: 1280
+frame_height: 720
+enable_posture: true
+enable_tts: true
+enable_logging: true
+log_dir: data/logs
+log_frame_level: true
+log_event_level: true
+active_mode: HighFocus
+modes:
+  Study:
+    distraction_yaw_deg: 20.0
+    distraction_min_seconds: 1.0
+    gaze_offset_threshold: 0.15
+    gaze_distraction_min_seconds: 1.0
+    drowsy_ear_threshold: 0.2
+    drowsy_min_seconds: 2.0
+    posture_slouch_angle_deg: 25.0
+    posture_min_seconds: 3.0
+    alert_cooldown_seconds: 8.0
+  Office:
+    distraction_yaw_deg: 25.0
+    distraction_min_seconds: 1.5
+    gaze_offset_threshold: 0.18
+    gaze_distraction_min_seconds: 1.5
+    drowsy_ear_threshold: 0.2
+    drowsy_min_seconds: 2.5
+    posture_slouch_angle_deg: 27.0
+    posture_min_seconds: 5.0
+    alert_cooldown_seconds: 15.0
+  HighFocus:
+    distraction_yaw_deg: 15.0
+    distraction_min_seconds: 0.8
+    gaze_offset_threshold: 0.12
+    gaze_distraction_min_seconds: 0.8
+    drowsy_ear_threshold: 0.21
+    drowsy_min_seconds: 1.5
+    posture_slouch_angle_deg: 15.0
+    posture_min_seconds: 2.0
+    alert_cooldown_seconds: 6.0
