@@ -1,4 +1,4 @@
-# HCI_Project-WellnessWatch
+# WellnessWatch
 WellnessWatch is a multimodal HCI system that monitors **attention**, **drowsiness**, and **posture** from a webcam feed and provides real-time feedback via on-screen HUD and optional text-to-speech (TTS).
 
 ## Key features
